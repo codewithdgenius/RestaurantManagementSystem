@@ -97,7 +97,7 @@
 				<div class="col-lg-12">
 					<div class="heading-title text-center">
 						<h2>Special Menu</h2>
-						<p>Enjoy the new Tasty</p>
+						<p>Enjoy the new Taste </p>
 					</div>
 				</div>
 			</div>

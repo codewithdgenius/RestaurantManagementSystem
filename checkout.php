@@ -12,19 +12,19 @@ include "header.php";
 
 		<table align="center" border="1" cellspacing="14" cellpadding="12" style="width: 100%">
           <tr>
-			<th> <h3 align="center" style="font-size: 1.3em;">Fill Up Details To Deliver Your Item</h3> </th>
+			<th> <h3 align="center" style="font-size: 1.3em;">Fill Up Details To Deliver or Book Your Item</h3> </th>
 		<br>
             </tr>
 			    <tr align="center">
 
 			    	<td style="color: red">  Enter your name  <br>
-			        <input type="text" name="nm" placeholder="Enter your name" style="width: 100%; padding: 10px; color: orange; background-color: black" required="" pattern="[a-z,A-Z]*"></td>
+			        <input type="text" name="nm" placeholder="Enter your name" style="width: 100%; padding: 10px; color: orange; background-color: black" required="" pattern="[a-z,A-Z ]*"></td>
 			    		
 			    </tr>
 
 			    <tr align="center">
 			    	<td style="color: red">   Enter Mobile no <br>
-			        <input type="no" name="mo" placeholder="Enter Mobile no" style="width: 100%; padding: 10px; color: orange; background-color: black" required="" pattern="\d{10}"></td>
+			        <input type="no" name="mo" placeholder="Enter Mobile no" style="width: 100%; padding: 10px; color: orange; background-color: black" required="" pattern="\d{9}"></td>
 			    </tr>
 
 			    <tr align="center">
@@ -35,6 +35,15 @@ include "header.php";
                 <tr align="center">
                 	<td style="color: red"> Enter address <br>
                  <input type="text" name="ad" placeholder="enter your address" style="width: 100%; padding: 50px; color: orange; background-color: black">
+                </tr>	
+
+				<tr align="center">
+                	<td style="color: red"> Enter Status <br>
+					<select name="dropdown" style="width: 100%; padding: 50px; color: orange; background-color: black">
+					<option value="select">Please Select</option>	
+					<option value="Delivering">Deliver</option>
+						<option value="Book a Seat">Book a Seat</option>
+					</select>
                 </tr>	
 
                 <tr align="center">
@@ -53,3 +62,5 @@ include "header.php";
 
 
 <?php include "footer.php"; ?>
+
+

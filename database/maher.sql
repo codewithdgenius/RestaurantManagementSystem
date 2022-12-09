@@ -87,7 +87,7 @@ CREATE TABLE `checkout` (
 -- Dumping data for table `checkout`
 --
 
-INSERT INTO `checkout` (`id`, `p_id`, `u_id`, `name`, `mobile`, `email`, `location`) VALUES
+INSERT INTO `checkout` (`id`, `p_id`, `u_id`, `name`, `mobile`, `email`, `location` ) VALUES
 (1, 1, 'abcd', '', 0, '', ''),
 (2, 8, 'abcd', '', 0, '', ''),
 (3, 1, 'abcd', '', 0, '', ''),

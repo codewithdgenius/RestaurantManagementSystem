@@ -25,10 +25,10 @@ if(isset($_SESSION['uid']))
 
 ?>
 
-	<div style="background-color: #3b0878; font-size:2.3em; color: #b7e352;">Order Place SuccessFully </div>
+	<div style="background-color: #3b0878; font-size:2.3em; color: #b7e352;">Order Placed  SuccessFully </div>
 	<div style="color: #4d2e1f; font-size:1.8em;"> 
 			More Detail to Contact 24x7 <br>
-			+91 99240 42799
+			+23275385356
 	</div>
 
 <?php

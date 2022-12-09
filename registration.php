@@ -6,7 +6,7 @@
 		<div class="container text-center">
 			<div class="row">
 				<div class="col-lg-12">
-					<h1> REGISTRATION US </h1>
+					<h1> REGISTRATION HERE </h1>
 				</div>
 			</div>
 		</div>
